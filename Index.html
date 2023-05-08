@@ -1,35 +1,93 @@
+Min Index
 <!DOCTYPE html>
 <html>
 <head>
   <title>My Website</title>
-  <style>
-    body {
-      background-image: url("img/AF_Screenshot_04.png");
-      background-size: cover;
-      margin: 0;
-    }
-    .navbar {
-      background-color: #333;
-      color: white;
-      font-size: 18px;
-      padding: 10px;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      text-align: right;
-    }
-    .navbar a {
-      color: white;
-      text-decoration: none;
-      margin-left: 10px;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <div class="navbar">
-    <a href="#">+46 701-72 99-88</a>
-    <a href="#">contact@theindiequest.se</a>
+    <a href="#" class="phone-number">+46 701-72 99-88</a>
+    <a href="#" class="contact">contact@theindiequest.se</a>
+    <a href="#" class="apply">APPLY</a>
+    <a href="#" class="the-house">THE HOUSE</a>
+    <a href="#" class="curriculum">CURRICULUM</a>
+    <a href="#" class="about">ABOUT</a>
+    <a href="#" class="welcome">WELCOME</a>
   </div>
+  <div class="black-bar"></div>
+  
+  <div class="page-container">
+    <div class="page">
+      <h1>Text Page</h1>
+      <p>This is an example text page.</p>
+    </div>
+    <div class="page">
+      <h1>Video Page 1</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="page">
+      <h1>Video Page 2</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="page">
+      <h1>Video Page 3</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="page">
+      <h1>Image Page 1</h1>
+      <img src="image1.jpg" alt="Image 1">
+      <p>This is an example image page.</p>
+    </div>
+    <div class="page">
+      <h1>Image Page 2</h1>
+      <img src="image2.jpg" alt="Image 2">
+      <p>This is an example image page.</p>
+    </div>
+  </div>
+  
 </body>
 </html>
+
+Min css
+body {
+  background-image: url("img/AF_Screenshot_04.png");
+  margin: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: right;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  float: right;
+}
+
+.black-bar {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 50px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  width: 80%;
+}
+
+
+
