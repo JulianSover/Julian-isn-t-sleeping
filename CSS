@@ -1,16 +1,50 @@
 body {
-  background-image: url("img/AF_Screenshot_04.png");
-  margin: 0;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
+      background-image: url("img/AF_Screenshot_04.png");
+      margin: 0;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: 'Montserrat', sans-serif;
+    }
 
-.paper {
-  background-color: #333;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  color: white;
-}
+    .navbar {
+      background-color: #333;
+      color: white;
+      font-size: 16px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    @media (max-width: 576px) {
+      .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+      }
+    }
+
+    .top-right-image {
+      position: absolute;
+      top: 50px;
+      right: 10px;
+      width: 100px;
+      height: auto;
+    }
+
+    .paper {
+      background-color: #333;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      color: white;
+    }
