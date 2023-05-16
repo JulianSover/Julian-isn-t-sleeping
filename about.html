@@ -10,6 +10,37 @@
 
   <link rel="stylesheet" type="text/css" href="style.css">
   <style>
+    .navbar {
+      background-color: #333;
+      color: white;
+      font-size: 16px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    @media (max-width: 576px) {
+      .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+      }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+</style>
+
+  <style>
     .box-container {
       margin-top: 150px;
     }
@@ -18,13 +49,9 @@
 <body>
 
 <div class="navbar"> 
-  <a href="tel:00460701729988" class="phone-number">+46 701-72 99-88</a>
-  <a href="mailto:contact@theindiequest.se" class="contact">contact@theindiequest.se</a>
-</div>
-
-<div class="black-bar">
+ 
   <a href="apply.html" class="apply">APPLY</a>
-  <a href="thehouse.html" class="the-house">THE HOUSE</a>
+  <a href="findus.html" class="the-house">FIND US</a>
   <a href="curriculum.html" class="curriculum">CURRICULUM</a>
   <a href="about.html" class="about">ABOUT</a>
   <a href="index.html" class="welcome">WELCOME</a>
