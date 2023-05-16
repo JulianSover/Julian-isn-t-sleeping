@@ -1,0 +1,45 @@
+body {
+  background-image: url("img/AF_Screenshot_04.png");
+  margin: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: right;
+}
+
+
+.black-bar {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+}
+
+
+.black-bar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px; 
+  flex-shrink: 0;
+}
+
+
