@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,44 +11,30 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha384-5j3Y+siZP0o85+7Dnjy1FSlT7LdN5J9b+7yK4H7t9+6kTUMu3l6s9LC/ITQV8aW2" crossorigin="anonymous"></script>
 
-  <style>
-    .paper {
-      padding: 30px;
-    }
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .contact {
-      margin-left: 10px;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+</style>
+
+
+
 </head>
 <body>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-    }
-  </style>
-
   <div class="navbar">
-    <div>
-      <a href="apply.html" class="apply">APPLY</a>
-      <a href="findus.html" class="the-house">FIND US</a>
-      <a href="curriculum.html" class="curriculum">CURRICULUM</a>
-      <a href="about.html" class="about">ABOUT</a>
-      <a href="index.html" class="welcome">WELCOME</a>
-    </div>
+    <a href="apply.html" class="apply">APPLY</a>
+    <a href="findus.html" class="the-house">FIND US</a>
+    <a href="curriculum.html" class="curriculum">CURRICULUM</a>
+    <a href="about.html" class="about">ABOUT</a>
+    <a href="index.html" class="welcome">WELCOME</a>
+  </div>
 
-
-    <img src="img/IQ_Logo_BlackWhite_Roof.png" class="top-right-image">
+  <img src="img/IQ_Logo_BlackWhite_Roof.png" class="top-right-image">
 
       </div>
-   <!-- Applications, dvx pappren samt texten och valen -->
+   <!-- Applications, dvs pappren samt texten och valen -->
   
   <div class="container paper-container">
     <div class="row">
@@ -92,6 +79,10 @@
             <label for="email">E-post</label>
             <input type="email" id="email" name="email">
           </li>
+
+<!-- Använde p för att få lite space mellan de 2 sista valen och allt övanför -->
+<!-- Använde option för att användaren skulle få premade svar så de ska välja -->
+
           <p></p>
           <li>
             <label for="contact-preference">Hur vill du bli kontaktad? (telefon, e-post, sms)</label>
@@ -108,6 +99,9 @@
               <option value="other">Annat (ange land)</option>
             </select>
           </li>
+
+<!-- Submit knappen startar om sidan -->
+
           <button type="submit">Submit</button>
         </ul>
       </form>
